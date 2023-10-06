@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.shape-container {
+    background-color: #C5C1C1; 
+    display: flex;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.text-container {
+    flex: 1; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px; 
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 50%;
+    max-height: 50%;
+    display: inline-block;
+}
+
+
