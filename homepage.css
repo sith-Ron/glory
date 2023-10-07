@@ -2,35 +2,21 @@
     background-color: #C5C1C1 !important;
 }
 
-.shape-container {
-    background-color: #C5C1C1; 
-    display: flex;
-    border-radius: 20px; 
-    overflow: hidden; 
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
 }
 
-.text-container {
-    flex: 1; 
-    padding: 20px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
 }
 
-.column {
-    flex: 1;
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
 }
 
-.image-container {
-    flex: 1;
-    padding: 20px; 
-    text-align: center;
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
 }
-
-.image-container img {
-    max-width: 50%;
-    max-height: 50%;
-    display: inline-block;
-}
-
-
