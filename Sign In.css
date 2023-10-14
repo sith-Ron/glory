@@ -1,0 +1,203 @@
+/* Custom CSS styles for the login form */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    margin-top: 50px; /* Add some top margin to move the form down */
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.form-container .row:first-child .col-12 a {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+}
+
+.form-container .row:first-child .col-12 a {
+    font-family: 'Adamina', sans-serif;
+}
+
+.form-container .row:nth-child(3) .col-12 h1,
+.form-container .row:nth-child(3) .col-12 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Set the width of the email address and password input fields */
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Center the email address and password input fields within the form */
+.form-container .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the password input field and eye icon container */
+.form-container .input-group {
+    position: relative;
+}
+
+/* Change the color of the password toggle icon when clicked */
+.form-container .input-group button i.fa-eye-slash:hover {
+    color: lightgrey;
+}
+
+/* Fixed width and height for the eye icon button */
+.form-container .input-group button i.fa-eye-slash {
+    width: 20px;
+    height: 20px;
+    color: lightgrey;
+    transition: color 0.3s;
+}
+
+/* Move the eye icon up a bit */
+.form-container .input-group button {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+}
+
+/* Remove border and border-radius for password input when type is 'text' */
+.form-container .input-group input[type="password"][type="text"] {
+    border: none;
+    border-radius: 0;
+}
+
+/* Style for the custom checkbox */
+.custom-checkbox:checked + .custom-label::before {
+    filter: brightness(0); /* Set the checkbox color to black when checked */
+    border-color: black; /* Set the checkbox border color to black when checked */
+}
+
+/* Style for the "Remember Me" label text */
+.custom-label {
+    font-weight: bold; /* Make the label text bold */
+    font-family: 'Intel', sans-serif; /* Set the font family to Intel */
+}
+
+/* Remove default checkbox styles */
+.custom-checkbox:checked + .custom-label::before,
+.custom-checkbox:not(:checked) + .custom-label::before {
+    border: 1px solid #ced4da;
+    filter: brightness(0); /* Set the checkbox color to black when not checked */
+    width: 1em;
+    height: 1em;
+}
+
+/* Style for the "Forgot Password?" link */
+.forgot-password-link {
+    color: #FF5252; /* Set the link color to red */
+    font-weight: bold; /* Make the link text bold */
+    text-decoration: none; /* Remove the underline */
+    font-family: 'Inter', sans-serif; /* Change the font-family to Inter or your desired font */
+}
+
+/* Style for the "Continue" button */
+.btn-primary {
+    width: 100%; /* Make the button full width */
+    height: 40px; /* Set the desired height */
+    margin-top: 10px; /* Add some spacing below the checkbox and link */
+    font-family: 'Inter', sans-serif; /* Change the font-family to Inter or your desired font */
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: #0057FF; /* Set the button background color to #0057FF */
+    color: #FFFFFF; /* Set the text color to #FFFFFF */
+    border: none; /* Remove button border */
+}
+
+.custom-or-text {
+    color: #FFFFFF; /* Set the text color to #FFFFFF */
+    font-family: 'Intel', sans-serif;
+    position: relative;
+    top: 10px; /* Adjust the top value to move the text down */
+}
+
+.login-options .btn {
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+    font-weight: lighter;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.login-options .btn i.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+.login-options .btn i.fa-apple {
+    color: black; /* Apple icon color */
+}
+
+.login-options .btn i.fa-facebook-f {
+    color: #1877F2; /* Facebook icon color */
+}
+
+/* CSS for the "Log in to SellerNet" link */
+.seller-link {
+    color: #FF0000; /* Set the link color to red */
+    font-family: 'Intel', sans-serif; /* Change the font-family to Intel */
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Style for the horizontal line below the link */
+.line-below {
+    border: 1px solid #000; /* You can adjust the border color and thickness */
+    width: 100%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the line horizontally and add margin */
+}
+/* Style for the text agreeing to Terms of Service and Privacy Policy */
+.terms-policy-text {
+    font-family: 'Intel', sans-serif; /* Set font-family to Intel */
+    color: black; /* Set the default text color */
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Style for the links (Terms of Service and Privacy Policy) */
+.terms-link {
+    font-family: 'Intel', sans-serif; /* Set font-family to Intel */
+    margin: 0 0px; /* Add some margin between links */
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.terms-link.term-service {
+    color: #FF2D2D; /* Set link text color for "Terms of Service" to red */
+}
+
+.terms-link.privacy-policy {
+    color: #FF3434; /* Set link text color for "Privacy Policy" to another shade of red */
+}
