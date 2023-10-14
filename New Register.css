@@ -1,0 +1,202 @@
+/* Custom CSS styles for the login form */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    margin-top: 10px; /* Further reduced top margin */
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.form-container .row:first-child .col-12 a {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+}
+
+/* Style for the seller link */
+.seller-link {
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none; /* Remove the underline */
+}
+
+.form-container .row:nth-child(3) .col-12 h1,
+.form-container .row:nth-child(3) .col-12 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Set the width of the form input fields */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="password"],
+.form-container input[type="password"][type="text"] {
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Center the input fields within the form */
+.form-container .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the password input field and eye icon container */
+.form-container .input-group {
+    position: relative;
+}
+
+/* Change the color of the password toggle icon when clicked */
+.form-container .input-group button i.fa-eye-slash:hover,
+.form-container .input-group button i.fa-eye-slash {
+    color: lightgrey; /* Adjusted color */
+}
+
+/* Fixed width and height for the eye icon button */
+.form-container .input-group button i.fa-eye-slash,
+.form-container .input-group button i.fa-eye {
+    width: 20px;
+    height: 20px;
+    color: lightgrey;
+    transition: color 0.3s;
+}
+
+/* Move the eye icon up a bit */
+.form-container .input-group button {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+}
+
+/* Custom checkbox styles */
+.custom-checkbox:checked + .custom-label::before,
+.custom-checkbox:not(:checked) + .custom-label::before {
+    border: 1px solid #ced4da;
+    filter: brightness(0); /* Set the checkbox color to black when not checked */
+    width: 1em;
+    height: 1em;
+}
+
+/* Style for the "Remember Me" label text */
+.custom-label {
+    font-weight: bold;
+    font-family: 'Intel', sans-serif;
+}
+
+/* Remove default checkbox styles */
+.custom-checkbox:checked + .custom-label::before,
+.custom-checkbox:not(checked) + .custom-label::before {
+    border: 1px solid #ced4da;
+    filter: brightness(0);
+    width: 1em;
+    height: 1em;
+}
+
+/* Style for the "Forgot Password?" link */
+.forgot-password-link {
+    color: #FF5252;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style for the "Register" button */
+.btn-primary {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: #0057FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.custom-or-text {
+    color: #FFFFFF;
+    font-family: 'Intel', sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.login-options .btn {
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+    font-weight: lighter;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.login-options .btn i.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-options .btn i.fa-apple {
+    color: black;
+}
+
+.login-options .btn i.fa-facebook-f {
+    color: #1877F2;
+}
+
+/* Style for the horizontal line below the link */
+.line-below {
+    border: 1px solid #000;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Style for the text agreeing to Terms of Service and Privacy Policy */
+.terms-policy-text {
+    font-family: 'Intel', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Style for the links (Terms of Service and Privacy Policy) */
+.terms-link {
+    font-family: 'Intel', sans-serif;
+    margin: 0 0px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.terms-link.term-service {
+    color: #FF2D2D;
+}
+
+.terms-link.privacy-policy {
+    color: #FF3434;
+}
