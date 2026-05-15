@@ -1,0 +1,240 @@
+/* Navbar Styles */
+#navbar {
+    background-color: #FF3737 !important;
+    background-image: url('logo.png');
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+    filter: brightness(1) invert(0);
+}
+
+.form-title {
+    font-family: 'Karma', sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Add these styles to center the image and make it smaller */
+.image-container {
+    text-align: center;
+}
+
+#user-image {
+    max-width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Review Section Styles */
+.review-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rating-text {
+    font-family: 'Inter', sans-serif;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+
+.star {
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.star.active {
+    color: rgb(239, 184, 32);
+}
+
+/* Additional Text Styles */
+.additional-info {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+/* Styles for social icons container */
+.social-icons {
+    display: flex;
+    align-items: center; /* Center vertically within the column */
+    justify-content: center; /* Center horizontally within the column */
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 0 5px; /* Add some space between icons */
+    color: #333; /* Original icon color */
+    text-decoration: none;
+}
+
+/* Add styles for the round icons */
+.round-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey; /* Background color for the round shape */
+    border-radius: 50%; /* Makes the shape round */
+    margin: 5px; /* Adjust the margin as needed */
+    color: #000; /* Icon color */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* CSS for the "Edit Profile" button link and its container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Adjust the height as needed */
+}
+
+.edit-profile-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #FF3737;
+    text-decoration: none; /* Remove underlines */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    display: inline-block; /* Display as a block-level element */
+    width: 200px;
+    height: 38px;
+    text-align: center;
+}
+
+/* Left Form Styles */
+.col-md-4 form {
+    background-color: none;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Right Form Styles (Top and Bottom) */
+.col-md-8 .col form {
+    background-color: none;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styles for the "Property status" text */
+.property-status {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-align: left; /* Center the text */
+}
+
+/* Styles for the three forms with a 3D effect */
+.form-left, .form-center, .form-right {
+    background-color: white; /* Light gray background color */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 30%; /* Adjust the width as needed */
+    margin: 5px; /* Add margin between forms */
+    text-align: center; /* Center the text */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Add a 3D box shadow effect */
+}
+
+/* Styles for the text inside the forms */
+.form-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: grey; /* Use the specific gray color you prefer */
+}
+
+.form-text2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000; /* Use the specific gray color you prefer */
+}
+
+/* Custom styles for the spinners */
+.custom-spinner {
+    width: 3rem; /* Adjust the size as needed */
+    height: 3rem; /* Adjust the size as needed */
+    font-weight: bold; /* Make the spinner bold */
+    border-width: 8px; /* Increase the border width for bold appearance */
+}
+
+.activity-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.card {
+    width: 20rem;
+    border-radius: 0px;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.price, .additional-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.icon-with-margin i {
+    margin: 0 5px;
+}
+
+/* Add this CSS to remove the underline from card links */
+.card-link {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Inherit the text color */
+}
+
+.card-link:hover {
+    text-decoration: none; /* Remove the underline on hover */
+}
+
+.buyers-info {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.buyers-info-text {
+    font-family: 'Kameron', sans-serif; /* Set the font family to Karma */
+    font-weight: bold; /* Make it bold */
+    font-size: 30px; /* Set the font size to 35px */
+    color: #000000; /* Set the text color to black (#000000) */
+}

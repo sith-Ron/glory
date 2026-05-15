@@ -1,0 +1,93 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(65, 47, 226, 0.7); /* Adjust the last value (opacity) as needed */
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Additional styles for the special button */
+.special-button {
+    background-color: #574FFF; /* Button background color (violet) */
+    color: #FFFFFF; /* Text color */
+    font-family: 'Kameron', sans-serif;
+    font-size: 16px; /* Reduced font size */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 16px; /* Adjusted padding for a smaller size */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default link underline */
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensure the link button behaves like an inline element */
+    margin-bottom: 20px; /* Add margin below the button */
+}
+
+.special-button:hover {
+    background-color: #5762FF; /* Button background color on hover (slightly different shade) */
+}
+
+.special-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.special-image {
+    width: 280px; /* Set the width of the images */
+    height: 280px; /* Set the height of the images */
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special-image:hover {
+    transform: scale(1.1); /* Enlarge the image on hover for emphasis */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.special-image.enlarged {
+    transform: scale(1.5); /* You can adjust the scale factor as needed */
+    z-index: 1; /* Bring the enlarged image to the front */
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

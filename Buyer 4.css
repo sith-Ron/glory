@@ -1,0 +1,542 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Text Styles */
+.dream-home-text {
+    font-family: 'Karma', sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Image Styles */
+.dream-home-image {
+    width: 100%; /* You can adjust the width as needed */
+    height: auto; /* Automatically adjust height based on the width */
+    display: block; /* Center the image horizontally within its column */
+    margin: 0 auto; /* Center the image vertically within its column */
+}
+
+/* New Text Styles */
+.welcome-text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+/* "Location" Text Styles */
+.location-label {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    color: lightgrey; /* Change text color to light grey */
+}
+
+/* Search Icon Outline Style */
+.search-icon {
+    background-color: transparent; /* Set background to transparent */
+    font-size: 25px; /* Increase the font size to make the search icon larger */
+    color: lightgrey; /* Change icon color to light grey */
+    border: 1px solid #000000; /* Set the icon outline to black */
+    border-radius: 0; /* Remove the rounded corners from the icon box */
+}
+
+/* Form and Form Control Styles */
+.form-control {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: lightgrey; /* Set the text color to light grey */
+    border: 1px solid #000000; /* Set the form outline to black */
+    border-radius: 0; /* Remove the rounded corners from the form */
+}
+
+.form-control::placeholder {
+    color: lightgrey; /* Set the placeholder text color to light grey */
+}
+
+.form-control:focus {
+    color: lightgrey; /* Set the text color to light grey when the input is focused */
+    border: 1px solid #000000; /* Set the form outline to black when focused */
+}
+
+/* Dropdown Button Styles */
+.dropdown {
+    display: inline;
+    margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.btn-secondary {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin-top: 21px; /* Add margin to the top to move the button down */
+    margin-left: 10px; /* Adjust this margin as needed */
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.5rem;
+}
+
+.btn-secondary::after {
+    display: none; /* Hide the default caret icon */
+}
+
+/* Add this CSS to center the SVG caret icon horizontally within the dropdown button */
+.btn-secondary .bi-caret-up-fill {
+    vertical-align: middle; /* Align the icon vertically in the middle */
+    margin-left: 0.5rem; /* Add space between text and icon */
+}
+
+/* Add this CSS to display the caret-up icon when the 'up' class is present */
+.up {
+    fill: #000; /* Change the fill color to black when 'up' class is present */
+    transform: rotate(180deg); /* Rotate the caret-up icon 180 degrees */
+}
+
+/* Existing styles for .dropdown-menu and .dropdown-item */
+
+.dropdown-menu {
+    width: 250px; /* Adjust the width as needed */
+}
+
+.dropdown-menu .dropdown-item {
+    font-family: 'Karma', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: grey;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 5px; /* Adjust the padding values as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px; /* Adjust the margin values to add space */
+}
+
+.dropdown-button-left, .dropdown-button-center, .dropdown-button-right {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    background-color: rgb(240, 237, 237);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-button-left:active, .dropdown-button-right:active {
+    background-color: rgb(240, 237, 237);
+    border: 1px solid grey;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px; /* Adjust the margin values to add space */
+}
+
+.min-text, .max-text {
+    font-family: 'Karma', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+
+.max-text2 {
+    font-family: 'Karma', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    margin-right: 10px; /* Add margin to the right to move it to the right */
+}
+
+.min-text {
+    margin-left: 0px; /* Add a right margin to push it to the right */
+}
+
+.max-text {
+    margin-right: 65px; /* Add a left margin to push it to the left */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px; /* Adjust the margin values to add space */
+}
+
+.dropdown-form-left, .dropdown-form-right {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    background-color: rgb(240, 237, 237);
+    color: lightgrey;
+}
+
+/* Add space between label and input */
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people-input-left, .people-input-right {
+    width: 30px; /* Wider input fields for better user interaction */
+    padding: 2px;
+    border: none; /* Remove the outside border */
+    border-radius: 5px;
+    background-color: rgb(240, 237, 237); /* Set background color */
+    color: lightgrey; /* Set text color to light grey */
+}
+
+.people-input-left:focus, .people-input-right:focus {
+    background-color: rgb(240, 237, 237); /* Change background color when focused */
+    color: lightgrey; /* Change text color when focused */
+}
+
+/* Add margin to the right form to move it to the left */
+.dropdown-form-right {
+    margin-right: 51px; /* You can adjust the margin value as needed */
+}
+
+.divider {
+    font-size: 20px; /* Adjust the size as needed */
+    margin: -5px 3px; /* Add space on both sides of the divider */
+    color: #000; /* Set the color of the divider */
+}
+
+/* Center the "Apply" button */
+.apply-button-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin-top as needed */
+}
+
+.apply-button {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF; /* Text color */
+    background-color: #0073FB; /* Background color */
+    border: none; /* Remove border */
+    border-radius: 2px; /* Add some border-radius for rounded corners */
+    width: 210px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block; /* Make the button inline-block to center it horizontally */
+}
+
+.apply-button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* "Type" Dropdown Button Styles */
+.type-dropdown {
+    display: inline;
+    margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.type-dropdown .btn-secondary {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin-top: 21px; /* Add margin to the top to move the button down */
+    margin-left: 10px; /* Adjust this margin as needed */
+}
+
+/* "More" Dropdown Button Styles */
+.more-dropdown {
+    display: inline;
+    margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.more-dropdown .btn-secondary {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin-top: 21px; /* Add margin to the top to move the button down */
+    margin-left: 10px; /* Adjust this margin as needed */
+}
+
+/* Add these styles to move the "Search" button beside the other dropdown buttons */
+.search-col {
+    display: flex;
+    align-items: center;
+}
+
+.btn-search {
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: #E9FC9F;
+    border: 1px solid #000000;
+    border-radius: 0;
+    margin-bottom: -18px; /* Remove the top margin to align it with the dropdowns */
+    margin-left: -253px; /* Add margin to the left to separate it from the dropdowns */
+    width: 120px;
+}
+
+.btn-search:active {
+    background-color: #E9FC9F; /* Background color when active */
+    color: #000000; /* Text color when active */
+}
+
+/* Add these styles for the new container and text */
+.text-below-button {
+    text-align: start; /* Center the text horizontally */
+    margin-top: 10px; /* Add margin to separate it from the button */
+}
+
+.text-below-button-text {
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.price, .additional-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #000000;
+}
+
+.icon-with-margin i {
+    margin: 0 5px;
+}
+
+/* Add this CSS to remove the underline from card links */
+.card-link {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Inherit the text color */
+}
+
+.card-link:hover {
+    text-decoration: none; /* Remove the underline on hover */
+}
+
+/* Add this CSS class to change the color of the love icon to pink */
+.heart-pink {
+    color: pink;
+}
+
+/* Add these styles to adjust the position of the love icon */
+.love-icon {
+    position: relative;
+    right: -8px;
+}
+
+/* Add this style to prevent text selection when clicking the icon */
+.love-icon::before {
+    user-select: none;
+}
+
+/* Reduce the size of the cards */
+.card {
+    max-width: 100%; /* Adjust the size as needed */
+    border-radius: 0px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.result-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+    margin: 0;
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.pagination .page-item {
+    margin-right: 10px; /* Add some margin to create space between pagination items */
+    border: 1px solid lightgrey; /* Add a border to the pagination items */
+    border-radius: 5px; /* Round the border */
+    display: inline-block;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: lightgrey; /* Change the text color to light grey */
+    font-weight: bold;
+}
+
+.pagination a:hover {
+    color: lightgrey;
+}
+
+.pagination .page-item.active a {
+    background-color: grey; /* Set the background color to grey when active */
+    color: #FFFFFF; /* Change the text color to white when active */
+}
+
+.second-footer {
+    padding: 20px 0;
+}
+
+.line {
+    height: 0.6px;
+    width: 100%; /* Set the width to 100% to span the entire container */
+    background-color: #000000;
+}
+
+.return-to-top {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+    margin: 10px 0; /* Adjust the margin as needed for spacing */
+}
+
+/* Black Navbar Styles */
+.black-navbar {
+    background-color: #2C2C2C;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.follow-icons {
+    display: flex; /* Use flexbox to align text and icons on the same line */
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-end; /* Align to the right side of the container */
+}
+
+.follow-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-right: 10px; /* Add space between text and icons */
+}
+
+.social-icons-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons-list li {
+    display: inline;
+}
+
+.social-icons-list a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Gray Navbar Styles */
+.gray-navbar {
+    background-color: #2C2C2C;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.company-name, .contact-us {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.contact-us {
+    margin-right: 20px; /* Add space between the two texts and align to the right */
+}
+
+.content {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer; /* Change the cursor style to indicate clickable */
+    display: block; /* Make the links a block element to control spacing */
+    margin-bottom: 10px; /* Add margin to create space between the links */
+}
+
+.content:hover {
+    color: grey;
+}
+
+/* Second Navbar Styles with Outline */
+.second-navbar {
+    background-color: #FCFCFC;
+    padding: 10px 0;
+    border: 1px solid #000000; /* Add a black outline */
+}
+
+.nav-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+
+.sub-text, .view-more-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none; /* Remove the underline */
+    cursor: pointer; /* Change the cursor style to indicate clickable */
+    display: block; /* Make the links a block element to control spacing */
+    margin-bottom: 10px; /* Add margin to create space between the links */
+}
+
+.sub-text:hover {
+    /* Optional: Change text color on hover to indicate interactivity */
+    color: grey;
+}
+
+.view-more-text {
+    color: #FE0000; /* Change the color for the "View More" text */
+}
+
+.view-more-text:hover {
+    color: blue;
+}
+
+.state-of-malaysia {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    text-align: center; /* Center the text horizontally */
+    font-weight: 600;
+}
+
+.state-of-malaysia img {
+    width: 50px; /* Set the image width to match the text font size */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-right: 5px; /* Add some spacing between text and image */
+}

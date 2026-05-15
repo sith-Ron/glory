@@ -1,0 +1,244 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Rounded Square Styles */
+.rounded-square {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #000000 !important; /* Black border with !important flag */
+}
+
+.rounded-square.border {
+    border-radius: 35px;
+}
+
+/* Button Styles */
+.btn.btn-outline-primary {
+    color: #0057FF; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+/* Text Styles */
+h3 {
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif; 
+}
+
+p {
+    font-family: 'Inter', sans-serif; 
+    color: #A7A7A7; 
+    text-align: left;
+    font-size: 13px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+/* Center the footer links horizontally */
+.footer-links {
+    list-style: none;
+    text-align: center; /* Center horizontally */
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'r', sans-serif;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+}
+
+/* Add this CSS to control the width of the <hr> element */
+.footer-line {
+    width: 90%; /* Adjust the width as needed (e.g., 50% for half the container width) */
+    margin: 0 auto; /* Center the <hr> element */
+}
+
+/* Add this CSS to style the new text */
+.centered-text {
+    text-align: center;
+}
+
+.text-container {
+    text-align: left;
+    margin-left: 250px; /* Add left margin to shift the text to the right */
+}
+
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    color: #939393;
+    margin-top: 20px; /* Add some space between the text and the hr */
+}
+
+.follow-us {
+    color: #939393; 
+    font-family: 'Inter', sans-serif; 
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icon {
+    text-decoration: none; 
+    margin-right: 20px;
+}
+
+.icon1 {
+    text-decoration: none;
+}
+
+.city {
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: -60px auto;
+}
+
+.subang {
+    font-family: Kameron;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.img1 {
+    height: 260px;
+    width: 350px;
+    display: block; /* Ensure images are displayed as block elements */
+    margin: 0 auto; /* Center the images horizontally within the columns */
+}
+
+/* New CSS for the circular button */
+.chat-button {
+    background-color: #FFFCFC;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    border-radius: 50%; /* Make the button circular */
+    border: 1px solid #000000;
+    text-decoration: none; /* Remove underline from the link */
+    padding: 15px; /* Adjust the padding to make the button larger */
+    display: inline-block; /* Ensure the button is displayed as a block element */
+    width: 120px; /* Set a fixed width to make it a circle */
+    height: 20px; /* Set a fixed height to make it a circle */
+    text-align: center; /* Center text horizontally */
+    line-height: 3px; /* Center text vertically */
+}
+
+/* Adjust the layout of the columns */
+.col-start {
+    flex: 1; /* Occupy one part of the available space */
+}
+
+.col-end {
+    flex: 0; /* Do not occupy additional space */
+    margin-left: auto; /* Push the button to the right end of the column */
+}
+
+.svg-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.fs-text {
+    color: #CA9483;
+    font-family: Kameron;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fs-text1 {
+    color: #000000;
+    font-family: Kameron;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Add margin to move the image to the right */
+.house1 {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto;
+    display: block; /* Center the image horizontally within its column */
+    margin: 0 auto; /* Center the image vertically within its column */
+}
+
+/* Center the "Enter a location" and the form */
+.navbar.bg-white {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: right; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100%; /* Make sure the container takes full height */
+}
+
+/* Adjust the text alignment for "Enter a location" */
+.fs-text2 {
+    color: #000000;
+    font-weight: normal;
+    font-family: Kameron;
+    font-size: 15px;
+    text-align: center; /* Center the text */
+}
+
+/* Style the form */
+.form-control {
+    border-radius: 0; /* Remove border radius to make it rectangular */
+    font-family: 'Kantumruy', sans-serif;
+    color: #A9A9A9; /* Light grey text color for the form */
+}
+
+/* Style the Search button */
+.search {
+    background-color: #E9FC9F; /* Change button background color to #E9FC9F */
+    font-family: 'Kantumruy', sans-serif;
+    color: #000000; /* Text color for the button */
+    border-radius: 0; /* Remove button border radius to make it rectangular */
+    border: 1px solid lightgrey;
+}
+
+/* Adjust button padding to make it rectangular */
+.btn.search {
+    padding: 5px 15px;
+}

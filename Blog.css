@@ -1,0 +1,125 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.blog-post-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: darkgreen;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(76, 175, 80, 0.8); /* Text shadow with a green tint */
+}
+
+.blog-post-meta {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.iProperty {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.text2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    color: #880000;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(174, 86, 94, 0.8); /* Text shadow with a green tint */
+}
+
+.comments-section h3,
+.comment-form h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: royalblue; /* You can adjust this color to your preference */
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(70, 130, 180, 0.8); /* Text shadow with a blue tint */
+}
+
+.form-label {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.form-control {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: lightslategray;
+    font-weight: 600;
+}
+
+.submit {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #FF1493; /* This is a shade of pink; you can adjust it to your preference */
+    border-color: #FF1493; /* Matching border color for consistency */
+}
+
+.submit:hover {
+    background-color: #C71585; /* Adjusted color for hover effect */
+    border-color: #C71585;
+}
+
+.more {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #8611c9;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(163, 101, 196, 0.8); /* Text shadow with a green tint */
+}
+
+.text3 {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.text3:hover{
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

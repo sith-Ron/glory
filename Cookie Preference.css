@@ -1,0 +1,101 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Custom CSS for Privacy Policy Modal */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #008080; /* Change to green color */
+    color: #fff;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Style the close button in the modal */
+.modal-content .btn-close {
+    color: #fff;
+}
+
+/* Custom CSS for Privacy Portal Form */
+.border.p-3 {
+    border: 2px solid #008080; /* Change to green color */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Style the Privacy Policy Button */
+.btn-link {
+    font-family: 'Kameron', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #008080; /* Change to green color */
+    text-decoration: none;
+    text-shadow: 3px 3px 2px rgba(0, 128, 128, 0.7);
+}
+
+.btn-link:hover {
+    color: #00CED1; /* Change to a different shade of green on hover if desired */
+}
+
+/* Adjust the modal size for larger screens */
+@media (min-width: 768px) {
+    .modal-lg {
+        max-width: 800px;
+    }
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.privacy {
+    font-family: 'Karma', sans-serif;
+    font-size: 20px;
+    color: deepskyblue; /* Keeping the specified color for the "privacy" class */
+    font-weight: 600;
+    text-shadow: 3px 3px 2px rgba(186, 225, 235, 0.7);
+    text-decoration: none;
+}

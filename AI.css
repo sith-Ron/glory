@@ -1,0 +1,95 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.description {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: darkcyan;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(126, 222, 229, 0.7); /* Adjust the last value (opacity) as needed */
+}
+
+/* Blog.css */
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.btn-chatbot {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-chatbot:hover {
+    color: #FFFFFF; /* Adjust the hover color as needed */
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Custom CSS for colorful icons */
+.input-group-text i.fa-whatsapp { color: #25D366; } /* Green color for WhatsApp */
+.input-group-text i.fa-phone { color: #34B7F1; } /* Blue color for Phone */
+.input-group-text i.fa-envelope { color: #EA4335; } /* Red color for Email */
+
+/* Custom CSS to adjust label width */
+.contact-label {
+    text-align: start; /* Center the text within the label */
+    padding-top: 8px; /* Add padding to center vertically within the input group */
+    cursor: pointer; /* Add pointer cursor to indicate it's clickable */
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit color from the parent */
+}
+
+.form-control {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

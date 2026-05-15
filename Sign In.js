@@ -1,17 +1,14 @@
 // Function to toggle password visibility
 function togglePasswordVisibility() {
     const passwordInput = document.getElementById('password');
-    const passwordError = document.getElementById('passwordError');
-
-    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-    passwordInput.setAttribute('type', type);
-
     const eyeIcon = document.querySelector('#togglePassword i');
-    if (type === 'password') {
+
+    if (passwordInput.getAttribute('type') === 'password') {
+        passwordInput.setAttribute('type', 'text');
         eyeIcon.classList.remove('fa-eye-slash');
         eyeIcon.classList.add('fa-eye');
-        passwordError.textContent = '';
     } else {
+        passwordInput.setAttribute('type', 'password');
         eyeIcon.classList.remove('fa-eye');
         eyeIcon.classList.add('fa-eye-slash');
     }

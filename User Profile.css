@@ -1,0 +1,303 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Styles for the forms */
+.container {
+    padding: 20px;
+}
+
+/* Left Form Styles */
+.col-md-4 form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+/* Right Form Styles (Top and Bottom) */
+.col-md-8 .col form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+/* Form Title Styles */
+.form-title {
+    font-family: 'Karma', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Form Subtitle Styles */
+.form-subtitle, .form-subtitle2 {
+    font-family: 'Karma', sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Form Input Styles (Name and Nationality) */
+label[for="name"], label[for="nationality"], label[for="date"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    top: -10px;
+}
+
+#name, #nationality, #date {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #A9A9A9;
+    position: relative;
+    top: -10px;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #000;
+}
+
+/* Date input field with calendar icon Styles */
+.input-group.date {
+    position: relative;
+}
+
+#date {
+    font-family: 'Karma', sans-serif;
+    font-size: 13px;
+    color: #A9A9A9;
+    padding-right: 30px;
+    width: 180px;
+}
+
+.input-group-text {
+    cursor: pointer;
+    color: #000000;
+}
+
+/* Additional CSS styles for the "Number of Occupants" field */
+label[for="occupants"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    top: 10px; /* Adjust the position as needed */
+}
+
+/* Additional CSS styles for the "Number of Occupants" field */
+label[for="occupants"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    top: 10px; /* Adjust the position as needed */
+}
+
+/* Styles for "Adults" and "Children" forms */
+.col-6 input[type="number"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #D0D0D0;
+    border: none;
+}
+
+.col-6 input[type="number"]::placeholder {
+    color: #FFFFFF;
+}
+
+/* Additional CSS styles for the "Number of Occupants" field */
+label[for="budget"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    top: 10px; /* Adjust the position as needed */
+}
+
+/* CSS for Maximum and Minimum RM Value Forms */
+.col-6 input[type="number"] {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #D0D0D0;
+    border: none;
+}
+
+.col-6 input[type="number"]::placeholder {
+    color: #FFFFFF;
+}
+
+/* CSS for the Save Changes Button */
+.save-button {
+    font-family: 'Karma', sans-serif;
+    font-weight: bold;
+    background-color: #0073FB;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    height: 38px;
+    width: 128px;
+}
+
+.save-button:hover {
+    background-color: #005BBB;
+}
+
+/* CSS for the User Icon */
+.user-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin: 0 auto; /* Center the icon horizontally */
+}
+
+.user-icon img {
+    width: 180px; /* Adjust the image size as needed */
+    height: 140px;
+    filter: grayscale(0%) invert(0%); /* Modify these values to match your icon's color */
+    border-radius: 60px;
+}
+
+.user-icon:hover {
+    background-color: #d0d0d0;
+}
+
+/* CSS for the "Change Profile Picture" button */
+.change-picture-button {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #0073FB;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    width: 200px; /* Adjust the width as needed */
+    text-align: center;
+    margin: 0 auto; /* Center the button horizontally */
+    height: 38px;
+    font-weight: bold;
+}
+
+.change-picture-button:hover {
+    background-color: #005BBB;
+}
+
+/* CSS for the "Contact Details" text */
+.contact-details-text {
+    font-family: 'Karma', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* CSS for the "Phone Number" text */
+.phone-number-label {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* CSS for the "Email" text */
+.email-label {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* CSS for the "Edit" button */
+.edit-button {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0073FB; /* Background color for the button */
+    border: none;
+    border-radius: 30px; /* Adjust the border radius as needed */
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100px; /* Adjust the width as needed */
+    height: 40px;
+    display: inline-block;
+    margin-top: 10px; /* Adjust the margin as needed */
+    cursor: pointer;
+    text-align: center;
+}
+
+.edit-button:hover {
+    background-color: #005BBB; /* Background color on hover */
+}
+
+/* CSS for the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background-color: none; /* Background color for the footer */
+}
+
+/* CSS for the scroll-up button */
+.scroll-up-button {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; /* Button background color */
+    padding: 10px 20px;
+    border-radius: 0; /* No rounded corners */
+    cursor: pointer;
+    border: 1px solid;
+}
+
+/* CSS for the scroll-up icon (left side of the button) */
+.scroll-up-button img {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 10px; /* Margin between the icon and text */
+}
+
+/* CSS for the "Chat" text (right side of the button) */
+.chat-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000; /* Text color for "Chat" */
+}

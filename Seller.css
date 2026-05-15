@@ -1,0 +1,121 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Add styling as needed for the images and their containers */
+.container {
+    margin-top: 0px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Default styles for both desktop and mobile views */
+.left-image {
+    width: 100%; /* Fixed width for both desktop and mobile */
+    height: auto;
+}
+
+.right-image {
+    width: 50%; /* Fixed width for both desktop and mobile */
+    height: auto;
+}
+
+/* CSS for the button */
+.photo-button {
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    outline: 2px solid #000000; /* Add an outline */
+}
+
+.photo-button svg {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    color: #000000;
+    margin-right: 10px; /* Add some space between the icon and text */
+}
+
+.button-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+
+/* Styles for the round shape */
+.ellipse {
+    width: 14px; /* Reduce the size of the ellipse */
+    height: 14px; /* Reduce the size of the ellipse */
+    background-color: #35F505;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 2px;
+    display: inline-flex; /* Make it inline with text */
+    align-items: center; /* Vertically align text and ellipse */
+}
+
+/* Styles for the text */
+.status-text {
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 13px;
+    color: #B0AFAF;
+}
+
+/* Styles for property text */
+.property-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+.action-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #B0AFAF;
+}
+
+/* Add a CSS class for styling the link without underline */
+.view-details-link {
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+    font-size: 13px;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Style the link when hovered */
+.view-details-link:hover {
+    text-decoration: none; /* Remove underline when hovering over the link */
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

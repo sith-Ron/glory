@@ -1,0 +1,339 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Add an outline to all form elements */
+form {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Form Title Styles */
+.form-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form Input Styles */
+label {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Form Input Styles */
+input {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style the vertical line */
+.vertical-line {
+    width: 2px; /* Adjust the width of the line as needed */
+    height: 140px; /* Match the font size of the text */
+    background-color: #000; /* Adjust the line color as needed */
+    margin-left: 10px; /* Adjust the spacing between the text and the line */
+    margin-top: -14px; /* Move the line up by 8px (adjust as needed) */
+}
+
+/* icon-text.css */
+.icon-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex; /* Makes the container a flex container */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+}
+
+.icon-container {
+    text-align: center; /* Centers text horizontally */
+    margin-left: 10px; /* Adjust the margin as needed to move it to the right */
+    margin-bottom: 50px;
+}
+
+.icon-text {
+    margin-left: 10px; /* Adjust the margin as needed to move it to the right */
+}
+
+.icon-image {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+}
+
+.additional-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+.additional-text2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: rgb(189, 51, 51);
+    font-weight: bold;
+}
+
+/* Your additional CSS rules here */
+.additional-text3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.view-more {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+/* Remove underline from the link */
+.no-underline {
+    text-decoration: none;
+}
+
+/* CSS for "Choose Your Location" text and SVG icon container */
+.location-container {
+    text-align: right; /* Align text to the right */
+    margin-top: -20px; /* Adjust the negative margin to move it up */
+}
+
+/* Adjust the margin and padding for "View on Map" */
+.view-on-map {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    text-decoration: none;
+    margin-right: 36px; /* Adjust the left margin as needed */
+    padding-left: 5px; /* Add some left padding to separate it from the left edge */
+}
+
+.location {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* CSS for the Google Maps icon */
+.svg-icon-container {
+    margin-right: 50px; /* Adjust the margin to move the icon to the left */
+}
+
+/* Add these styles to center the image and make it smaller */
+.image-container {
+    text-align: center;
+}
+
+#user-image {
+    max-width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Review Section Styles */
+.review-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rating-text {
+    font-family: 'Inter', sans-serif;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+
+.star {
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.star.active {
+    color: rgb(239, 184, 32);
+}
+
+.form-title2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.non-rounded-form {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0; /* Set border-radius to 0 to make the forms non-rounded */
+}
+
+/* WhatsApp Icon and Text Styles */
+.whatsapp-container {
+    text-align: center;
+    margin: 0 auto; /* Center the container itself horizontally */
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.whatsapp-link {
+    text-decoration: none;
+}
+
+.whatsapp-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+/* Phone Icon and Text Styles */
+.phone-container {
+    text-align: center;
+    margin: 0 auto; /* Center the container itself horizontally */
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.phone-link {
+    text-decoration: none;
+}
+
+.view-phone-number-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.phone-icon-image{
+    height: 24px;
+    width: 24px;
+}
+
+/* Email Icon and Text Styles */
+.email-container {
+    text-align: center;
+    margin: 0 auto; /* Center the container itself horizontally */
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.send-enquiry-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.email-icon-image{
+    height: 24px;
+    width: 24px;
+}
+
+.house-image {
+    width: 460px;
+    height: 188px;
+    display: block; /* Remove any extra spacing around the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.albert-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+/* CSS for the rating container */
+.rating-container {
+  text-align: center;
+  margin-top: -5px;
+}
+
+/* Style the stars */
+.rating-container .stars {
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+  margin-right: 10px; /* Add right margin to the stars */
+}
+
+.rating-container .star {
+  font-size: 15px;
+  color: #ccc;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.rating-container .star.active {
+  color: #1c9957; /* Green color when active */
+}
+
+/* CSS for the date text */
+.rating-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: lightgrey;
+  margin-top: 5px;
+  margin-right: -38px; /* Add right margin to the date text */
+}
+
+.review-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin-right: 74px;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

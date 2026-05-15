@@ -1,0 +1,102 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(226, 47, 47, 0.7); /* Adjust the last value (opacity) as needed */
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.mission {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(62, 226, 47, 0.7); /* Adjust the last value (opacity) as needed */
+}
+
+.img-fluid {
+    border: 2px solid #ddd; /* Border color */
+    border-radius: 8px; /* Border radius for rounded corners */
+    padding: 5px; /* Padding to create space between the image and the border */
+    transition: all 0.3s ease; /* Add a smooth transition effect for the 3D effect */
+
+    /* Add a box-shadow for a 3D effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); /* Scale the image on hover for a subtle 3D effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+}
+
+.special-glory-house-inside {
+    font-family: 'Kameron', sans-serif;
+    font-size: 36px;
+    color: #4CAF50; /* Green color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(76, 175, 80, 0.8); /* Text shadow with a green tint */
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.special-glory-house-inside:hover {
+    transform: scale(1.1);
+    color: #689F38; /* Darker green color on hover */
+}
+
+.bordered-container {
+    border: 2px solid #ddd; /* Border color */
+    border-radius: 8px; /* Border radius for rounded corners */
+    padding: 15px; /* Padding to create space between the text and the border */
+    text-align: center; /* Center the text */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+
+    /* Add a box-shadow for a 3D effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bordered-container:hover {
+    transform: scale(1.05); /* Scale the container on hover for a subtle 3D effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

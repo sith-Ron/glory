@@ -1,0 +1,56 @@
+.body {
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.suggestion-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.0em; /* Adjust the font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: darkred; /* Set the text color */
+    text-shadow: 3px 3px 5px rgba(255, 12, 12, 0.3); /* Add a subtle text shadow for a 3D effect */
+    transform: skew(-10deg); /* Skew the text for a slanted appearance */
+    display: inline-block; /* Ensure the transform and shadow effects work properly */
+}  
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.0em;
+    color: red;
+}
+
+.suggestion-text2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.0em; /* Adjust the font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: darkgreen; /* Set the text color */
+    text-shadow: 3px 3px 5px rgba(24, 255, 12, 0.3); /* Add a subtle text shadow for a 3D effect */
+    transform: skew(-10deg); /* Skew the text for a slanted appearance */
+    display: inline-block; /* Ensure the transform and shadow effects work properly */
+}  
+
+.link2 {
+    text-decoration: none;
+}
+
+.text2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.0em;
+    color: blue;
+} 
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 10px; /* Adjust the left value as needed to move the button to the left */
+}  

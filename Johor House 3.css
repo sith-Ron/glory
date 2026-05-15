@@ -1,0 +1,268 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.house-plan-view {
+    width: 500px;
+    height: 380px;
+    margin-left: -12px;
+}
+
+.more-details-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.form {
+    border: 1px solid #000;
+}
+
+.left-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: lightgrey;
+    float: left; /* Float it to the left side */
+}
+
+.right-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: lightgrey;
+    float: right; /* Float it to the right side */
+}
+
+.text1 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.text2 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-right: 30px;
+}
+
+.line {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%; /* Adjust the width as needed */
+}
+
+.completion-year-text {
+    margin-right: 52px;
+}
+
+.project-stage {
+    margin-right: 10px;
+}
+
+.listed-on {
+    margin-right: 58px;
+}
+
+.available-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.unit-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+.unit-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.unit-type {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin-right: 20px; /* Adjust the margin as needed to control the distance between the texts */
+}
+
+.line1 {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%; /* Adjust the width as needed */
+}
+
+/* Add these styles for the buttons and price info */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style for Type A and Type B buttons with reduced padding and left-aligned text */
+.black-button, .white-button {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+    text-align: center; /* Align text to the left */
+}
+
+.black-button {
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.white-button {
+    background-color: lightgrey;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+/* Add this CSS to adjust the layout */
+.unit-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+.unit-info-left, .unit-info-right {
+    flex-basis: 50%;
+}
+
+.unit-info-left a, .unit-info-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for RM849,800 and Starting Form button */
+.price-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000; /* RM849,800 text color */
+}
+
+.starting-from-button {
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.starting-form-button:hover {
+    text-decoration: none;
+    background-color: lightgrey;
+    color: inherit;
+}
+
+/* Style for the property info container */
+.property-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px; /* Updated font size to 15px */
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.property-info-text {
+    margin: 0 5px;
+}
+
+.property-info-icon {
+    font-size: 13px; /* Set the icon size to match the text size */
+    color: #000000;
+    margin: 0 5px;
+}
+
+.bold-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.light-grey-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+}
+
+.fu-text {
+    text-align: center;
+}
+
+.navbar2 {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar2 img {
+    width: 180px; /* Adjust the width to your desired size */
+}
+
+.request-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: #F7F7F7;
+    text-decoration: none; /* Remove underlines from links */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 20px; /* Adjust the left value as needed to move the button to the left */
+}  

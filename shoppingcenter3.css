@@ -1,0 +1,30 @@
+.body {
+    background-color: #FFFFFF;
+}
+
+.ativa {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.address {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+
+.img-thumbnail {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    transition: width 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Style to remove the underline from the "Go Back" link */
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; /* Remove the underline */
+    color: #5B40FF;
+    margin-left: 10px; /* Adjust the left value as needed to move the button to the left */
+  }

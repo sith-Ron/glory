@@ -1,0 +1,142 @@
+/* Navbar Styles */
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+/* Additional Navbar Styles */
+.navbar.navbar-below {
+    background-color: #0f1106 !important;
+}
+
+.navbar.navbar-below .navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar.navbar-below .navbar-nav .nav-item {
+    margin: 0 10px; /* Add spacing between links if needed */
+}
+
+.navbar.navbar-below .navbar-nav .nav-link {
+    color: #fff; /* Set text color to white */
+}
+
+.navbar.navbar-below .form-inline {
+    display: flex;
+}
+
+.navbar.navbar-below .form-control {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add spacing between the search input and button */
+}
+
+.navbar.navbar-below .btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar.navbar-below .btn:hover {
+    background-color: #ccc; /* Change the color on hover as needed */
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+.navbar-below a {
+    color: #fff !important;
+    text-decoration: none !important; /* Remove underline */
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.finance-content,h2 {
+    text-align: center;
+}
+
+.finance-news-articles {
+    padding: 40px 0;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.article:hover {
+    transform: scale(1.05);
+}
+
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.article h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.article p {
+    color: #333; /* Change description text color */
+    margin: 0;
+    padding: 15px;
+}
